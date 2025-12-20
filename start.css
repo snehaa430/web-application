@@ -1,0 +1,126 @@
+body{
+    font-family:'raleway',sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(235, 199, 199) 0%,white 50%, rgb(6, 54, 54) 50%, paleturquoise 100%);
+}
+.menu{
+
+    display: flex;
+    gap: 1.5em;
+    font-size: 23px;
+    color:rgb(60, 60, 132)
+}
+.menu i{
+    align-items: first baseline;
+    font-size:28px;
+    padding-top:  0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px ;
+    color: black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px;
+    color:rgb(62, 50, 72);
+
+}
+.logo{
+    font-size: 40px;
+}
+
+.nav-links a{
+    color: #6e457b;
+}
+a{
+    text-decoration: none;
+}
+.container{
+     display: flex;
+    justify-content: center;
+    width: min();
+    margin-inline: auto;
+     align-items: center;
+}
+.photo{
+    display: flex;
+}
+.photo img{
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.subtitle{
+    margin-left: 25px;
+    line-height:47px;
+    padding: 65px;
+
+}
+.subtitle-intro{
+    font-size:50px;
+}
+.subtitle-passes{
+    margin-left:30px;
+    font-size: 25px;
+}
+.subtitle button{
+    color:rgba(255, 255, 255, 0.869);
+}
+.details{
+    margin-top: 20px;
+    background-color: rgb(212, 215, 228);
+    text-decoration: none;
+    border: none;
+    padding: 12px 17px;
+    border-radius: 9px;
+    display: inline-block;
+    font-size: 18 px;
+    cursor:pointer;
+    font-weight:600;
+}
+.section{
+    width:100%;
+    min-height:100vh;
+}
+.containers{
+ width:100%;
+ display:block;
+ margin:auto;
+ padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+    padding: 0px 70px;;
+
+}
+.title{
+    font-size: 33px;
+}
+.content p{
+    margin-top: 30px;
+    font-size: 25px;;
+    line-height: 44px;
+
+}
+.image-section{
+    float: right;
+    width: 40% ;
+}
+.img-section img{
+    height:auto;
+    width:80%
+
+}
+img{
+    vertical-align:top;
+    justify-content: left;
+    margin-left: 30px ;
+}
+.footer{
+    background-color: rgb(35, 61, 52);
+}
